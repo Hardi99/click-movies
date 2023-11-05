@@ -9,7 +9,7 @@ let [background, setBackground] = useState(null);
 let [title, setTitle] = useState(null);
 
       return (
-          <section style={!background ? {backgroundColor: "white"} : {padding: '30px',  backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+          <section style={!background ? {backgroundColor: "white"} : {backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
             <ul id='list-1'>
               {data.map((movie, index) => {
                 return (
