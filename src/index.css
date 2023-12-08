@@ -27,14 +27,9 @@ a:hover {
   text-decoration: underline;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 section {
   height: 100vh;
-  width: 800px;
+  width: 50%;
   text-align: center;
   margin: 0 auto;
   display: flex;
@@ -66,8 +61,8 @@ ul {
 }
 
 #list-2 {
-  width: 320px;
-  margin: auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
 #list-2 li {
@@ -93,6 +88,15 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 992px) {
+  /* Rules */
+
+  section {
+    height: 100%;
+  }
 }
 
 @media (prefers-color-scheme: light) {
