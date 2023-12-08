@@ -27,6 +27,11 @@ a:hover {
   text-decoration: underline;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 section {
   height: 100vh;
   width: 50%;
